@@ -1,8 +1,8 @@
 customer/many:
-	go run examples/customer/get_many.go
+	go run examples/customer/get_many
 
 customer/create:
-	go run examples/customer/create.go
+	go run examples/customer/create
 
 test:
 	go test ./...
